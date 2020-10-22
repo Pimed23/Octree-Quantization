@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('fase1') {
+            steps {
+                echo 'En fase 1'
+            }
+        }
+        stage('fase2') {
+            steps {
+                echo 'En fase 2'
+            }
+        }
+    }
+}
